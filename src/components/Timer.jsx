@@ -6,13 +6,12 @@ function Timer() {
   const [timerId, setTimerId] = useState();
 
   useEffect(() => {
-    const id = setInterval(() => {
+    let intervalID = setInterval(() => {
       setTimer((timer) => timer + 1);
     }, 1000);
-    setTimerId(id);
-
+    setTimerId(intervalID);
     return () => {
-      clearInterval(id);
+      clearInterval(intervalID);
     };
   }, []);
 
@@ -23,7 +22,7 @@ function Timer() {
     return () => {
       clearTimeout(timeOut);
     };
-  });
+  }, [timerId]);
   return (
     <div>
       <TimerTag>{timer}</TimerTag>
@@ -33,9 +32,8 @@ function Timer() {
 
 export default Timer;
 
-
-const TimerTag=styled.p`
+const TimerTag = styled.p`
   font-size: 4rem;
   margin-top: 70px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-`
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+`;
