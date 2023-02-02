@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hm-8-use-effect/static/css/main.073c9b0a.css",
-    "main.js": "/hm-8-use-effect/static/js/main.b52ac24e.js",
+    "main.js": "/hm-8-use-effect/static/js/main.4f8a8bd8.js",
     "static/js/787.de997ec0.chunk.js": "/hm-8-use-effect/static/js/787.de997ec0.chunk.js",
     "index.html": "/hm-8-use-effect/index.html",
     "main.073c9b0a.css.map": "/hm-8-use-effect/static/css/main.073c9b0a.css.map",
-    "main.b52ac24e.js.map": "/hm-8-use-effect/static/js/main.b52ac24e.js.map",
+    "main.4f8a8bd8.js.map": "/hm-8-use-effect/static/js/main.4f8a8bd8.js.map",
     "787.de997ec0.chunk.js.map": "/hm-8-use-effect/static/js/787.de997ec0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.b52ac24e.js"
+    "static/js/main.4f8a8bd8.js"
   ]
 }
